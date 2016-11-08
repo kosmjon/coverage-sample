@@ -1,0 +1,22 @@
+{
+  "name": "coverage-sample",
+  "version": "1.0.0",
+  "description": "Simple app to test generating code coverage reports",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "cover": "istanbul cover node_modules/mocha/bin/_mocha"
+  },
+  "keywords": [
+    "coverage",
+    "unit-test",
+    "integration-test"
+  ],
+  "author": "Jon Kosmoski",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "chai": "3.5.0",
+    "istanbul": "0.4.5",
+    "mocha": "^3.1.2"
+  }
+}
