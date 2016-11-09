@@ -12,6 +12,9 @@ pids
 # Coverage directory used by tools like istanbul
 coverage
 
+# Mocha test results
+test-results.xml
+
 # Dependency directories
 node_modules
 
