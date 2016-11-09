@@ -4,8 +4,8 @@
   "description": "Simple app to test generating code coverage reports",
   "main": "index.js",
   "scripts": {
-    "test": "mocha --reporter mocha-junit-reporter",
-    "cover": "istanbul cover node_modules/mocha/bin/_mocha --reporter mocha-junit-reporter test/**/*"
+    "test": "mocha --reporter mocha-junit-reporter test/**/*",
+    "cover": "istanbul cover node_modules/mocha/bin/_mocha -- --reporter mocha-junit-reporter test/**/*"
   },
   "keywords": [
     "coverage",
@@ -17,7 +17,7 @@
   "devDependencies": {
     "chai": "3.5.0",
     "istanbul": "0.4.5",
-    "mocha": "^3.1.2",
-    "mocha-junit-reporter": "^1.12.1"
+    "mocha": "3.1.2",
+    "mocha-junit-reporter": "1.12.1"
   }
 }
